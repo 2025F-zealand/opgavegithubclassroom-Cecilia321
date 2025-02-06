@@ -11,5 +11,11 @@ namespace MyFirstGitHubClassRoomConsoleApp60
         private string name { get; set; }
         private int number { get; set; }
 
+        public demo(string name, int number)
+        {
+            this.name = name;
+            this.number = number;
+        }
+
     }
 }
